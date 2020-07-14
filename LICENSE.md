@@ -6,8 +6,8 @@ Copyright &copy; 2020 Robert J Joynt and Kester Falge.
 
 Artwork by Angie Elyse.
 
-This software named the "Muze Rating Suite" consists of the "Muze Rater"
-and "Muze Rating Calculator".
+This software named <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/README.md">Muze Rating Suite</a> consists of the <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/Muze-Rater.md">Muze Rater</a>
+and <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/Muze-Rating-Calculator.md">Muze Rating Calculator</a>.
 
 This software uses the <a href="https://www.qt.io/">QT</a> GPLv3 <a href="https://doc.qt.io/qt-5/gpl.html">Open Source License</a>
 
