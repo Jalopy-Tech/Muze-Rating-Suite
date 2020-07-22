@@ -53,7 +53,7 @@ Muze Rater outputs the document with the following fields:
 
 ### License
 
-Copyright &copy; 2020 Robert J Joynt and Kester Falge.
+Copyright &copy; 2020 Robert J. Joynt and Kester Falge.
 
 Artwork by Angie Eyles.
 

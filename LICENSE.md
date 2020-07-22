@@ -2,7 +2,7 @@
 
 11 July 2020
 
-Copyright &copy; 2020 Robert J Joynt and Kester Falge.
+Copyright &copy; 2020 Robert J. Joynt and Kester Falge.
 
 Artwork by Angie Elyse.
 

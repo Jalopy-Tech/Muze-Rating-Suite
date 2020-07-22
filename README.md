@@ -22,11 +22,11 @@ To uninstall, go to the Control Panel and uninstall the Muze Rating Suite.
 
 ### License
 
-Copyright &copy; 2020 Robert J Joynt and Kester Falge.
+Copyright &copy; 2020 Robert J. Joynt and Kester Falge.
 
 Artwork by Angie Eyles.
 
-The <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/LICENSE.md">Muze Rater license</a> uses the <a href="https://www.qt.io/">QT</a> GPLv3 <a href="https://doc.qt.io/qt-5/gpl.html">Open Source License</a>
+The <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/LICENSE.md">Muze Rating license</a> uses the <a href="https://www.qt.io/">QT</a> GPLv3 <a href="https://doc.qt.io/qt-5/gpl.html">Open Source License</a>
 
 ### Contact
 
