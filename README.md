@@ -16,7 +16,7 @@ The applications in the Muze Rating Suite are:
 
 ##### Windows 64-bit
 
-Download the <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/installers/MuzeRatingSuite-winx64.exe">MuzeRatingSuite-winx64.exe</a> installer file and run it in Windows.
+Download the <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/installers/MuzeRatingSuite-winx64.zip">MuzeRatingSuite-winx64.zip</a> zip file. Then open it and run the MuzeRatingSuite-winx64.exe installer.
 
 This installer will install the Muze Rater and optionally (and by default) the Muze Rating Calculator. It will add shortcuts to the Windows start menu under "Muze Rating Suite" and add shortcuts to the desktop.
 
