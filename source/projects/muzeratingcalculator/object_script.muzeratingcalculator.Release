@@ -1,0 +1,13 @@
+../../../builds/windows/release/muzeratingcalculator/.obj/main.o
+../../../builds/windows/release/muzeratingcalculator/.obj/muzeratingcalculator.o
+../../../builds/windows/release/muzeratingcalculator/.obj/view.o
+../../../builds/windows/release/muzeratingcalculator/.obj/gui_view.o
+../../../builds/windows/release/muzeratingcalculator/.obj/console_view.o
+../../../builds/windows/release/muzeratingcalculator/.obj/windows_console_fix.o
+../../../builds/windows/release/muzeratingcalculator/.obj/presenter.o
+../../../builds/windows/release/muzeratingcalculator/.obj/controller.o
+../../../builds/windows/release/muzeratingcalculator/.obj/moc_view.o
+../../../builds/windows/release/muzeratingcalculator/.obj/moc_gui_view.o
+../../../builds/windows/release/muzeratingcalculator/.obj/moc_console_view.o
+../../../builds/windows/release/muzeratingcalculator/.obj/moc_presenter.o
+../../../builds/windows/release/muzeratingcalculator/.obj/moc_controller.o

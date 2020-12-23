@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>muzeRaterFilterByRatedWizardPage</class>
+ <widget class="QWizardPage" name="muzeRaterFilterByRatedWizardPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>918</width>
+    <height>289</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WizardPage</string>
+  </property>
+  <property name="title">
+   <string>Filter albums by rated tracks</string>
+  </property>
+  <property name="subTitle">
+   <string>Set a minimum and, optionally, a maximum number of rated tracks. A minimum of &quot;1&quot;  excludes albums with no rated tracks. A maximum of &quot;0&quot; includes only albums with no rated tracks (this might be useful to see which albums have not been rated).</string>
+  </property>
+  <widget class="QSpinBox" name="maxRatedTracksFilterSpinBox">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>84</y>
+     <width>46</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="minimum">
+    <number>0</number>
+   </property>
+   <property name="maximum">
+    <number>999</number>
+   </property>
+   <property name="value">
+    <number>1</number>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="hasMaxRatedTracksFilterCheckBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>551</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Also, only include albums with a maximum number of rated tracks of</string>
+   </property>
+  </widget>
+  <widget class="QSpinBox" name="minRatedTracksFilterSpinBox">
+   <property name="geometry">
+    <rect>
+     <x>620</x>
+     <y>12</y>
+     <width>46</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="minimum">
+    <number>0</number>
+   </property>
+   <property name="maximum">
+    <number>999</number>
+   </property>
+   <property name="value">
+    <number>1</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="minRatedTracksFilterLabel">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>541</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Only include albums with a minimum number of rated tracks of</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>minRatedTracksFilterSpinBox</tabstop>
+  <tabstop>hasMaxRatedTracksFilterCheckBox</tabstop>
+  <tabstop>maxRatedTracksFilterSpinBox</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

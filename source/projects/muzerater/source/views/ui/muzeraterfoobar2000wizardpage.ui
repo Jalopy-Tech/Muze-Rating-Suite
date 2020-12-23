@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>muzeRaterFoobar2000WizardPage</class>
+ <widget class="QWizardPage" name="muzeRaterFoobar2000WizardPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>920</width>
+    <height>294</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WizardPage</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="title">
+   <string>foobar2000 Database</string>
+  </property>
+  <property name="subTitle">
+   <string>In the foobar2000 application, execute the &quot;Album Rater&quot; SQL query and right click and select &quot;Copy All&quot; to copy the data to the clipboard. Then check the checkbox on this page to continue.</string>
+  </property>
+  <widget class="QCheckBox" name="foobar2000ClipboardCheckedCheckBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>641</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>The Album Ratings SQL data has been copied from foobar2000 to the clipboard.</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="isFoobar2000ValidCheckBox">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>10</y>
+     <width>101</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

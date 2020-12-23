@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>muzeRaterResultWizardPage</class>
+ <widget class="QWizardPage" name="muzeRaterResultWizardPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1036</width>
+    <height>291</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WizardPage</string>
+  </property>
+  <property name="title">
+   <string>Results</string>
+  </property>
+  <property name="subTitle">
+   <string>The processing has finished. The file can be launched by the operating system's default application or viewed in a file manager.</string>
+  </property>
+  <widget class="QPushButton" name="launchOutputFilePushButton">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>90</y>
+     <width>171</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Launch</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="showOutputFolderPushButton">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>90</y>
+     <width>171</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Show Folder</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="outputFilePathLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>711</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="outputFilePathLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>611</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>File was saved to:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="hasErrorLabel">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>94</y>
+     <width>341</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Errors occurred during the processing.</string>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>showOutputFolderPushButton</tabstop>
+  <tabstop>launchOutputFilePushButton</tabstop>
+  <tabstop>outputFilePathLineEdit</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

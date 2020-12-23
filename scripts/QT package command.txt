@@ -1,0 +1,7 @@
+w:
+cd "w:\Muze Rating Suite\installers
+
+
+C:\Qt\Tools\QtInstallerFramework\3.2\bin\binarycreator.exe --offline-only -t C:\Qt\Tools\QtInstallerFramework\3.2\bin\installerbase.exe -c config/config.xml -p packages MuzeRatingSuitex64.exe
+
+

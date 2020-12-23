@@ -1,0 +1,6 @@
+\sigma^\frac{3}{2} = \frac{\displaystyle\sum_{i=1}^{n}[{sgn(x_i - \mu)\times \left |x_i - \mu\right |^\frac{3}{2}]}}{\sqrt{n}}
+
+
+\sigma = sgn(\sigma^\frac{3}{2}) \times \left |\sigma^\frac{3}{2}\right |^\frac{2}{3}
+
+Muze\space Rating = round( [\frac{3}{2}\sigma + 5] , 2)

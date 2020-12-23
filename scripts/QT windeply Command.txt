@@ -1,0 +1,4 @@
+
+
+C:\Qt\5.15.0\mingw81_64\bin\windeployqt "W:\Muze Rating\builds\windows\release\muzerater"
+C:\Qt\5.15.0\mingw81_64\bin\windeployqt "W:\Muze Rating\builds\windows\release\muzeratingcalculator"
