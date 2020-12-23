@@ -2,7 +2,7 @@
 
 ### Overview
 
-Muze Rater is part of the <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/README.md">Muze Rating Suite</a>. It calculates a <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/Muze-Rating.md">Muze Rating</a> for each of your albums in a music database.
+<img src="./Muze-Rating.png"  align="right"/>Muze Rater is part of the <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/README.md">Muze Rating Suite</a>. It calculates a <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/Muze-Rating.md">Muze Rating</a> for each of your albums in a music database.
 
 The currently supported music database types are (links to help):
 

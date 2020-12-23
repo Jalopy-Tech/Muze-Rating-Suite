@@ -2,7 +2,7 @@
 
 ### Overview
 
-The Muze Rating Suite consists of applications to calculate the <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/Muze-Rating.md">Muze Rating</a> of albums. The Muze Rating is an algorithm that rates the quality of an album based on the rating of its tracks.
+<img src="./Muze-Rating.png"  align="right"/>The Muze Rating Suite consists of applications to calculate the <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/Muze-Rating.md">Muze Rating</a> of albums. The Muze Rating is an algorithm that rates the quality of an album based on the rating of its tracks.
 
 The applications in the Muze Rating Suite are:
 

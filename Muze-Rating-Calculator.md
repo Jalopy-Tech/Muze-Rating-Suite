@@ -2,7 +2,7 @@
 
 ### Overview
 
-Muze Rating Calculator is part of the <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/README.md">Muze Rating Suite</a>. It calculates a <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/Muze-Rating.md">Muze Rating</a> for an album by entering in the number of 5-star, 4-star, 3-star, 2-star and 1-star tracks.
+<img src="./Muze-Rating.png"  align="right"/>Muze Rating Calculator is part of the <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/README.md">Muze Rating Suite</a>. It calculates a <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/Muze-Rating.md">Muze Rating</a> for an album by entering in the number of 5-star, 4-star, 3-star, 2-star and 1-star tracks.
 
 ### Installation
 
