@@ -1,5 +1,6 @@
-# Muze Rating<img src="./Muze-Rating.png"  style="float: right; margin-left: 10px; zoom: 20%" />
+# Muze Rating
 ### Overview
+<img src="./Muze-Rating.png"  aling="right"/>
 The *Muze Rating* is a calculation created by Kester Falge and Robert J. Joynt to provide album ratings based on the star ratings of the tracks. It is used by the <a href="https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/master/README.md">Muze Rating Suite</a>: software which can be used to calculate the Muze Ratings of albums.
 
 ### Introduction
