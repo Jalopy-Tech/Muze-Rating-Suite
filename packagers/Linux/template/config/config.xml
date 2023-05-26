@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Installer>
+	<Name>Muze Rating Suite</Name>
+	<Version>1.1</Version>
+	<Title>Muze Rating Suite Installer</Title>
+	<Publisher>Jalopy Tech</Publisher>
+	<ProductUrl>https://github.com/Jalopy-Tech/Muze-Rating-Suite/blob/main/README.md</ProductUrl>
+	<TargetDir>@HomeDir@/muze-rating-suite</TargetDir>
+	<RunProgram>@TargetDir@/muze-rater.sh</RunProgram>
+	<RunProgramDescription>Launch Muze Rater (both Muze Rater and Muze Rating Calculator can be launched from the start menu or desktop)</RunProgramDescription>
+	<MaintenanceToolName>muze-rating-suite-maintenance-tool</MaintenanceToolName>
+	<MaintenanceToolIniFile>muze-rating-suite-maintenance-tool</MaintenanceToolIniFile>
+	<WizardDefaultWidth>1000</WizardDefaultWidth>
+	<WizardStyle>Modern</WizardStyle>
+	<InstallerApplicationIcon>muze-rating-suite.png</InstallerApplicationIcon>
+	<Logo>logo.png</Logo>
+	<Watermark>watermark.png</Watermark>
+	<ControlScript>controlscript.js</ControlScript>
+	<SupportsModify>false</SupportsModify>
+	<CreateLocalRepository>false</CreateLocalRepository>
+</Installer>

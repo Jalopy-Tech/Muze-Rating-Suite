@@ -1,0 +1,21 @@
+{
+    "name": "Muze Rating Suite",
+    "qifOut": "Muze-Rating-Suite-Linux-Installer.run",
+    
+    "bin": [
+    	"../../builds/Linux/release/muzerater/muze-rater",
+    	"../../builds/Linux/release/muzeratingcalculator/muze-rating-calculator"
+    ],
+    
+    "targetDir": "./muze-rating-suite",
+    "icon": "./icons/muze-rating-suite.png",
+   
+    		
+    "qif": "template",
+    "extraData": [
+            "/opt/Qt/5.15.2/gcc_64/lib/libicudata.so.56",
+            "/opt/Qt/5.15.2/gcc_64/lib/libicui18n.so.56",
+            "/opt/Qt/5.15.2/gcc_64/lib/libicuuc.so.56"
+        ]
+
+}

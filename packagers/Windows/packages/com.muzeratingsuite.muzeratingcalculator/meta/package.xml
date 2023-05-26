@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Package>
+    <DisplayName>Muze Rating Calculator</DisplayName>
+    <Description>Calculates a Muze Rating</Description>
+    <Version>1.1</Version>
+    <ReleaseDate>2023-05-25</ReleaseDate>
+	<Name>com.muzeratingsuite.muzeratingcalculator</Name>
+	<Script>installscript.qs</Script>
+    <ForcedInstallation>true</ForcedInstallation>
+</Package>

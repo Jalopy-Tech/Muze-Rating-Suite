@@ -1,0 +1,23 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>images/banner.png</file>
+    <file>images/logo.png</file>
+    <file>images/watermark.png</file>
+    <file>images/muze-rater.ico</file>
+    <file>images/muze-rater.png</file>
+    <file>images/muze-rater.icns</file>
+    <file>files/welcome.md</file>
+    <file>js/sort-table-on-click.js</file>
+    <file>xq/count-tracks.xq</file>
+    <file>xq/csv-albums.xq</file>
+    <file>xq/header-xquery.xq</file>
+    <file>xq/html-albums.xq</file>
+    <file>xq/library-albums.xq</file>
+    <file>xq/library-itunes.xq</file>
+    <file>xq/library-itunes-albums.xq</file>
+    <file>xq/library-ratings.xq</file>
+    <file>xq/main.xq</file>
+    <file>xq/show-albums.xq</file>
+    <file>xq/show-tracks.xq</file>
+</qresource>
+</RCC>

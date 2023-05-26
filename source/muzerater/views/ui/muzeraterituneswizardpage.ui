@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>muzeRaterITunesWizardPage</class>
+ <widget class="QWizardPage" name="muzeRaterITunesWizardPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>920</width>
+    <height>285</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>WizardPage</string>
+  </property>
+  <property name="title">
+   <string>iTunes Music Library</string>
+  </property>
+  <property name="subTitle">
+   <string>Select the location of the iTunes Music Library XML file. To use this file, the &quot;Share iTunes XML Library with other applications&quot; option must be checked in the iTunes application's preferences (under Advanced options).</string>
+  </property>
+  <widget class="QLineEdit" name="iTunesDefaultLibraryFilePathLineEdit">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>40</y>
+     <width>711</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::ClickFocus</enum>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="iTunesDefaultLibraryRadioButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>731</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Use the default iTunes Music Library XML database.</string>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="iTunesCustomLibraryRadioButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>741</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Use a manually selected  iTunes Music Library XML database file.</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="iTunesCustomLibraryFilePathLineEdit">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>180</y>
+     <width>711</width>
+     <height>34</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="iTunesCustomLibraryFilePathBrowsePushButton">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>170</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Browse</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="iTunesDefaultLibraryNotAvailableLabel">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>80</y>
+     <width>701</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>(This library is currently not available.)</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="isITunesValidCheckBox">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>760</x>
+     <y>10</y>
+     <width>101</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="focusPolicy">
+    <enum>Qt::NoFocus</enum>
+   </property>
+   <property name="text">
+    <string>CheckBox</string>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>iTunesDefaultLibraryRadioButton</tabstop>
+  <tabstop>iTunesCustomLibraryRadioButton</tabstop>
+  <tabstop>iTunesCustomLibraryFilePathLineEdit</tabstop>
+  <tabstop>iTunesCustomLibraryFilePathBrowsePushButton</tabstop>
+  <tabstop>iTunesDefaultLibraryFilePathLineEdit</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

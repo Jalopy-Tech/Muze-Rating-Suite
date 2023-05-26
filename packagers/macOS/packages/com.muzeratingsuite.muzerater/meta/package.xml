@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Muze Rater</DisplayName>
+    <Description>Calculates Muze Ratings from a music database.</Description>
+    <Version>1.1</Version>
+    <ReleaseDate>2023-05-25</ReleaseDate>
+	<Name>com.muzeratingsuite.muzerater</Name>
+    <Licenses>
+        <License name="License Agreement" file="license.html" />
+    </Licenses>
+    <ForcedInstallation>true</ForcedInstallation>
+</Package>

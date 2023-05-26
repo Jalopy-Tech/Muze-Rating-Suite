@@ -1,0 +1,30 @@
+In Linux:
+
+sudo apt install imagemagick
+sudo apt install icnsutils
+
+
+convert muze-rating-suite.png -define icon:auto-resize=256,64,48,32,16 muze-rating-suite.ico
+
+png2icns muze-rating-suite.icns muze-rating-suite.png
+
+
+
+
+In macOS:
+
+mkdir muze-rating-suite.iconset
+sips -z 16 16     muze-rating-suite.png --out muze-rating-suite.iconset/16x16.png
+sips -z 32 32     muze-rating-suite.png --out muze-rating-suite.iconset/16x16@2x.png
+sips -z 32 32     muze-rating-suite.png --out muze-rating-suite.iconset/32x32.png
+sips -z 64 64     muze-rating-suite.png --out muze-rating-suite.iconset/32x32@2x.png
+sips -z 128 128   muze-rating-suite.png --out muze-rating-suite.iconset/128x128.png
+sips -z 256 256   muze-rating-suite.png --out muze-rating-suite.iconset/128x128@2x.png
+sips -z 256 256   muze-rating-suite.png --out muze-rating-suite.iconset/256x256.png
+sips -z 512 512   muze-rating-suite.png --out muze-rating-suite.iconset/256x256@2x.png
+sips -z 512 512   muze-rating-suite.png --out muze-rating-suite.iconset/512x512.png
+cp muze-rating-suite.png muze-rating-suite.iconset/512x512@2x.png
+iconutil -c icns muze-rating-suite.iconset
+rm -R muze-rating-suite.iconset
+
+
